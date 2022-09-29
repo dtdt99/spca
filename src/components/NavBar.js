@@ -17,7 +17,7 @@ const NavBar = () => {
         backgroundColor:'#47bfaf',
         fontFamily:'gotham'
       }}>
-            Consult Vet
+            Log In
           </Button>
       <img src={"../images/navbarImg.jpeg"} alt="rabbit" className="titleImg"></img>
       <ul className = 'links'>
