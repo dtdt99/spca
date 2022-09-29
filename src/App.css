@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+body{
+  margin:0;
+  
+
+}
+@font-face {
+  font-family: "gotham";
+  src: url('D:/React/practice/petstop/src/fonts/Gotham Bold/Gotham Bold.otf');
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.block {
+  display:block;
+  
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-family:'Courier New', Courier, monospace !important;
+  font-weight:bold !important;
+  color:white;
+  text-decoration: none;
+
+}
+.links{
+  display:flex;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navBar {
+  justify-content: space-between;
+  display:flex;
   align-items: center;
+  padding: 0 3vw !important;
+  background-color:#031e45;
+
+}
+
+.links > li{
+  list-style-type: none;
+  padding-left:4vw;
+}
+
+.logoImg{
+  width:100%;
+  object-fit:contain;
+  display:flex;
+  
+
+}
+
+.left {
+  float:left;
+  width:50%;
+  
+  
+
+}
+
+.right{
+  /* float:left; */
+
+}
+
+.left, .right{
+  display:inline-block;
+  height:inherit;
+}
+
+.introText{
+  font-family:gotham;
+  display:flex;
+  font-size:calc(4.5vh + 2.5vw);
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:35vw;
+  margin:20% auto;
+  color:#47bfaf;
+  
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.links > li> Link{
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titleImg{
+  width:10%;
+  height:15vh;
+  object-fit:scale-down;
+  position:absolute;
+  border-radius:50%;
+  left:45%
+
+}
+.btn {
+  position:absolute!important;
+  right:5%!important; 
+
+
+}
+
+.btn:hover {
+  background-color:white!important;
+  color:#031e45!important;
+
 }
